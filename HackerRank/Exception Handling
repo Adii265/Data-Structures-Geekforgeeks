@@ -1,0 +1,11 @@
+#30 Days of Code
+#Day 16
+#HackerRank
+
+
+# Print if the string can represent integer else show error message
+S = input().strip()
+try:
+    print(int(S))
+except ValueError:
+    print("Bad String")
